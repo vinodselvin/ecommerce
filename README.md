@@ -6,3 +6,4 @@ Online Store Application developed with PHP, Mysql, Jquery
 3) Open the following link http://localhost/fynestore in browser
 
 For demo videos, locate to "Demo Folder".
+For demo images, locate to "Screenshots Folder".
