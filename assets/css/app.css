@@ -1,0 +1,148 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 Sep, 2020, 2:59:49 PM
+    Author     : switchme
+*/
+.app-bar{
+    background-color: #2874f0;
+    color: white;
+}
+.navbar-brand{
+    color: gold !important;
+}
+.app-cart{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.app-cart:hover{
+    text-decoration: none;
+    color: gold;
+}
+.product-image{
+    height: 200px;
+    object-fit: contain;
+    padding: 15px;
+}
+.product-card{
+    padding: 15px
+}
+.product-action{
+    color: black;
+    text-decoration: none !important;
+}
+.product-action h5{
+    color: black !important;
+}
+.pd-image{
+    width: inherit;
+    object-fit: contain;
+    padding: 25px;
+}
+.product-desc{
+    margin: 15px 0px;
+}
+.pd-price{
+    padding: 15px 0px 0px;
+    font-weight: bold;
+}
+.product-row{
+    margin-top: 30px;
+}
+.breadcrumb{
+    margin-top: 15px;
+}
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+/* xs && sm*/
+@media (max-width: 768px) { 
+.pd-image{
+        height: 200px;
+    }
+}
+.filters{
+    border: 1px solid #dcdcdc;
+    padding: 15px;
+}
+.e-filter{
+    padding: 0px 15px 15px 15px;
+    border: none;
+    border-top: 1px solid #dcdcdc;
+}
+.e-filter h5{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.sort_by_price{
+    color: #212529;
+    padding: 5px;
+}
+.custom-checkbox{    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.custom-checkbox *{
+    cursor: pointer;
+}
+
+.clear-filter{
+    padding-top: 5px; 
+    font-size: 16px;
+    cursor: pointer;
+}
+.payment-option, .start-payment{
+    width: 100%;
+}
+.payment-option{
+    padding: 5px;
+}
+.profile-link{
+    color: white !important;
+    text-decoration: none;
+}
