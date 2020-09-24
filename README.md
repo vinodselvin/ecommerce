@@ -1,6 +1,8 @@
-# onlinestore
+# Online Store / Ecommerce
 Online Store Application developed with PHP, Mysql, Jquery
 
-<video width="320" height="240" controls>
-  <source src="https://github.com/vinodselvin/fynestore/blob/master/Demo%20Videos/Desktop.webm" type="video/webm">
-</video>
+1) Import sqldump.sql file to Mysql database.
+2) Copy fynestore folder to the designed nginx/apache server folder, for eg. in Linux with Apache server /var/www/html, etc.
+3) Open the following link http://localhost/fynestore in browser
+
+For demo videos, locate to "Demo Folder".
